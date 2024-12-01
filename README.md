@@ -1,5 +1,5 @@
 # BungeeUtilitiesAPI | Simple tools for your proxy plugins
-## Used in [BungeeBukkitMeteor](https://github.com/MrUniverse44/BungeeBukkitMeteor)
+## Used in [BungeeMeteor](https://github.com/MrUniverse44/BungeeMeteor)
 
 ---
 
