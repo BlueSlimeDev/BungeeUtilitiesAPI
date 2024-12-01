@@ -1,14 +1,13 @@
-# UtilitiesAPI | Simple tools for your plugins
-## Used in [BukkitMeteor](https://github.com/MrUniverse44/BukkitMeteor)
+# BungeeUtilitiesAPI | Simple tools for your proxy plugins
+## Used in [BungeeBukkitMeteor](https://github.com/MrUniverse44/BungeeBukkitMeteor)
 
 ---
 
-[![](https://jitpack.io/v/BlueSlimeDev/UtilitiesAPI.svg)](https://jitpack.io/#BlueSlimeDev/UtilitiesAPI)
+[![](https://jitpack.io/v/BlueSlimeDev/BungeeUtilitiesAPI.svg)](https://jitpack.io/#BlueSlimeDev/BungeeUtilitiesAPI)
 
 ---
 
 * Support from 1.8.x to 1.21.x
-* ItemBuilder with NBTs
 
 ---
 
@@ -24,10 +23,10 @@ Dependency:
 ```XML
         <dependency>
             <groupId>com.github.BlueSlimeDev</groupId>
-            <artifactId>UtilitiesAPI</artifactId>
-            <version>TAG</version>
+            <artifactId>BungeeUtilitiesAPI</artifactId>
+            <version>1.0.0</version>
             <!-- TAG = latest version, for example:
-            <version>1.0.9</version>
+            <version>1.0.0</version>
             -->
         </dependency>
 ```

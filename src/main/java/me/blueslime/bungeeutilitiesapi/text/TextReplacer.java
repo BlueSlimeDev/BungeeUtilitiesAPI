@@ -1,6 +1,6 @@
-package me.blueslime.utilitiesapi.text;
+package me.blueslime.bungeeutilitiesapi.text;
 
-import org.bukkit.configuration.ConfigurationSection;
+import net.md_5.bungee.config.Configuration;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -68,7 +68,7 @@ public class TextReplacer {
      * @param def value if the path is not set
      * @return TextReplacer
      */
-    public TextReplacer replace(String key, ConfigurationSection configuration, String path, Object def) {
+    public TextReplacer replace(String key, Configuration configuration, String path, Object def) {
         Object ob = configuration.get(path, def);
 
         if (ob == null) {
@@ -99,7 +99,7 @@ public class TextReplacer {
      * @param path of the replacement
      * @return TextReplacer
      */
-    public TextReplacer replace(String key, ConfigurationSection configuration, String path) {
+    public TextReplacer replace(String key, Configuration configuration, String path) {
         return replace(key, configuration, path, null);
     }
 

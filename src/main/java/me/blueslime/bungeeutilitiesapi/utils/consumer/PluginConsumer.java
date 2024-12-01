@@ -1,4 +1,4 @@
-package me.blueslime.utilitiesapi.utils.consumer;
+package me.blueslime.bungeeutilitiesapi.utils.consumer;
 
 import java.util.function.Consumer;
 import java.util.function.Predicate;

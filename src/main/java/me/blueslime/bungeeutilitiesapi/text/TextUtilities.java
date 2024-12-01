@@ -1,6 +1,6 @@
-package me.blueslime.utilitiesapi.text;
+package me.blueslime.bungeeutilitiesapi.text;
 
-import me.blueslime.utilitiesapi.color.ColorHandler;
+import me.blueslime.bungeeutilitiesapi.color.ColorHandler;
 
 import java.util.List;
 

@@ -1,7 +1,6 @@
-package me.blueslime.utilitiesapi.color;
+package me.blueslime.bungeeutilitiesapi.color;
 
-import me.blueslime.utilitiesapi.color.types.BukkitColor;
-import me.blueslime.utilitiesapi.color.types.BungeeColor;
+import me.blueslime.bungeeutilitiesapi.color.types.BungeeColor;
 
 public abstract class ColorHandler {
 
@@ -15,13 +14,7 @@ public abstract class ColorHandler {
     }
 
     private static ColorHandler create() {
-        try {
-            Class.forName("net.md_5.bungee.api.ChatColor");
-
-            return new BungeeColor();
-        } catch (ClassNotFoundException e) {
-            return new BukkitColor();
-        }
+        return new BungeeColor();
     }
 
     public abstract String execute(String text);
